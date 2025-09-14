@@ -5,8 +5,8 @@ from telegram import Update
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext, CommandHandler
 from telegram.utils.request import Request
 
-TOKEN = "your bot token"
-PROXY_URL = "proxy"
+TOKEN = "8186142341:AAFqN74M_eqtvIVzb8mNlQI2oqhbhkBtXNQ"
+PROXY_URL = "socks5://51.158.68.26:16379"
 
 
 DB_FILE = "messages.db"
