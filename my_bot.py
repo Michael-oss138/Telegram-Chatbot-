@@ -1,12 +1,14 @@
 import sqlite3
-import google.generativeai as genai
 import csv
 from datetime import datetime
 from telegram import Update
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext, CommandHandler
 from telegram.utils.request import Request
 
-TOKEN = "8186142341:AAFqN74M_eqtvIVzb8mNlQI2oqhbhkBtXNQ"
+import google.generativeai as genai
+
+
+
 PROXY_URL = "socks5://51.158.68.26:16379"
 
 
