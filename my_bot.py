@@ -1,4 +1,5 @@
 import sqlite3
+import google.generativeai as genai
 import csv
 from datetime import datetime
 from telegram import Update
